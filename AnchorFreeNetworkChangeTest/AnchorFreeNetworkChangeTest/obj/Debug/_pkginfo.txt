@@ -1,0 +1,1 @@
+c:\users\vinayganesh\documents\visual studio 2013\Projects\AnchorFreeNetworkChangeTest\AnchorFreeNetworkChangeTest\AppPackages\AnchorFreeNetworkChangeTest_1.0.0.0_AnyCPU_Debug_Test\AnchorFreeNetworkChangeTest_1.0.0.0_AnyCPU_Debug.appx

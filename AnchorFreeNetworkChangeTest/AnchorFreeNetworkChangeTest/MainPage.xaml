@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="AnchorFreeNetworkChangeTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AnchorFreeNetworkChangeTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="HeaderBlock" FontSize="40" Margin="88,10,105,572">AnchorFree</TextBlock>
+        <CheckBox x:Name="CbxNetworkChange" Unchecked="CbxNetworkChange_OnUnchecked" Checked="CbxNetworkChange_OnChecked" Content="Notify me when i am connected to Wifi" Margin="10,88,0,0"></CheckBox>
+        <TextBlock x:Name="TblSSIDLabel" Text="Connected to:" FontSize="18" Margin="45,153,238,463" Visibility="Collapsed"></TextBlock>
+        <TextBlock x:Name="TblSSIDBlock" FontSize="18" Margin="162,154,57,462" Visibility="Collapsed"></TextBlock>
+    </Grid>
+</Page>
